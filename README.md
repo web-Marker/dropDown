@@ -8,7 +8,6 @@
 * 直接引用dropDown.js既可以使用
 
 ## 不定期更新一下版本
->>>>>>> d71a5ce3188b1ac64b1d72e4bcf417ceae48e9e3
 
 * 下拉视差动画版本
 * react组件版本
