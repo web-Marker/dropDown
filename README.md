@@ -2,6 +2,8 @@
 
 下拉加载H5+WEB版本
 
+![](https://github.com/web-Marker/dropDown/blob/master/3.gif) 
+
 ## 下拉加载(持续更新react和vue组件版)
 
 * 不依赖任何JS库,支持移动端和PC端,支持所有主流浏览器
