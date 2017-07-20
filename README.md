@@ -24,8 +24,10 @@ var drop = new drops(document.body,function(){
     	drop.pullToRefreshDone();
     }, 500);
 });
+```
 
 ## React 调用方法
+
 
 ```js
 import Drop from './drop'
@@ -34,7 +36,7 @@ export default class Index extends Component {
 
 	constructor(props) {
 		super(props)
-		
+
 		//数据请求回调callback
         this.fetch = (call)=>{
             console.log("111")
@@ -55,6 +57,7 @@ export default class Index extends Component {
 		)
 	}
 }
+```
 
 
 
