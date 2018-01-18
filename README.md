@@ -2,7 +2,7 @@
 
 下拉加载H5+WEB版本
 
-![](https://github.com/web-Marker/dropDown/blob/master/pic1.gif) 
+![](https://github.com/web-Marker/dropDown/blob/master/example-1.gif) 
 
 ## 下拉加载(持续更新react和vue组件版)
 
@@ -17,7 +17,7 @@
 
 ## 更新支持视差动画(结合模块gka序列帧)
 
-![](https://github.com/web-Marker/dropDown/blob/master/pic2.gif) 
+![](https://github.com/web-Marker/dropDown/blob/master/example-2.gif) 
 
 
 * gka模块可以生成css3 canvas svg等序列帧动画代码,demo目前用的是css3，图片是gka自动生成的一个精灵图
