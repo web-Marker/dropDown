@@ -2,11 +2,7 @@
 * @Author: mark
 * @Date:   2018-01-12 10:05:42
 * @Last Modified by:   mark
-* @Last Modified time: 2018-01-18 16:02:14
-* @Author: mark
-* @Date:   2017-03-09 15:50:03
-* @Last Modified by:   mark
-* @Last Modified time: 2017-03-14 18:50:48
+* @Last Modified time: 2018-01-18 17:54:43
 */
 
 (function(global, factory) {
