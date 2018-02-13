@@ -15,12 +15,14 @@
 			padding:0;
 		}
 		@-webkit-keyframes rotate{
-		0%{-webkit-transform-origin:center center;
-		-webkit-transform:rotate(0deg);
-		}
-		100%{-webkit-transform-origin:center center;
-		-webkit-transform:rotate(360deg);
-		}
+			0%{
+				-webkit-transform-origin:center center;
+				-webkit-transform:rotate(0deg);
+			}
+			100%{
+				-webkit-transform-origin:center center;
+				-webkit-transform:rotate(360deg);
+			}
 		}
 		/*===下拉刷新组件===*/
 		.dropload-layer{height:0;overflow:hidden;line-height:50px;text-align:center;-webkit-transition:.4s;transition:.4s;position: relative}
@@ -224,8 +226,8 @@
   	<script type="text/javascript" src="anima.js"></script>
   	<script type="text/javascript">
   		!(function(){
-  			var drop = new drops({
-  				el: document.body,//插入的节点
+  			var drop = new webDrop({
+  				el: document.body,//插入的节点 默认是document.body
   				callback: function(){ //下拉刷新成功后的回调
   					var timer = setTimeout(function () {
 	                    clearTimeout(timer);
@@ -239,7 +241,6 @@
   				imgClassName: 'a', //css3动画序列类名首a1-an 就填写a就行
   				frameSize: '21'//动画一共有多少帧
   			})
-  		
   		})()
   	</script>
 </html>
