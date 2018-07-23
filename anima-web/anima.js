@@ -2,12 +2,12 @@
 * @Author: mark
 * @Date:   2018-01-12 10:05:42
 * @Last Modified by:   mark
-* @Last Modified time: 2018-02-13 16:05:08
+* @Last Modified time: 2018-02-14 09:42:00
 */
 
 // Object.is(typeof exports, "object") && Object.is(typeof module, "undefined") ? module.exports = factory() : Object.is(typeof define, 'function') && define.amd ? define(factory) : (global.drops = factory())
 
-((global, factory) => {
+((global = self, factory) => {
 	typeof exports === "object" && typeof module !== "undefined" ? module.exports = factory() : typeof define === "function" && define.amd ? define(factory) : (global.webDrop = factory())
 })(self, () => {
 	
